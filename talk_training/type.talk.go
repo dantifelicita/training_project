@@ -8,3 +8,10 @@ type Talks struct {
 	Message    string    `json:"message"`
 	CreateTime time.Time `json:"create_time"`
 }
+
+type Messages struct {
+	ProductID int64  `json:"product_id"`
+	ShopID    int64  `json:"shop_id"`
+	UserID    int64  `json:"user_id"`
+	Message   string `json:"message"`
+}

@@ -1,13 +1,11 @@
 package main
 
 import (
+	// "fmt"
+	"github.com/dantifelicita/training_project/talk_training"
+	"github.com/julienschmidt/httprouter"
 	"log"
 	"net/http"
-
-	_ "github.com/lib/pq" // Dependency to connect postgres
-
-	"github.com/julienschmidt/httprouter"
-	"github.com/purnaresa/training_project/talk_training"
 )
 
 func main() {
